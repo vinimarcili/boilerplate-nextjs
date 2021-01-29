@@ -3,7 +3,7 @@ import '../../styles/globals.css'
 
 type Props = {
   Component: typeof Component
-  pageProps: any
+  pageProps: { foo: string }
 }
 
 function MyApp({ Component, pageProps }: Props) {

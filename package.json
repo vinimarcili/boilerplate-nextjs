@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src",
+    "lint": "eslint src --max-warnings=0",
     "lint:fix": "eslint src --fix"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "react-dom": "17.0.1"
   },
   "pre-commit": [
+    "lint:fix",
     "lint"
   ],
   "devDependencies": {
