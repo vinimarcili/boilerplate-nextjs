@@ -2,7 +2,7 @@ import { Component } from 'react'
 import '../../styles/globals.css'
 
 type Props = {
-  Component: typeof Component,
+  Component: typeof Component
   pageProps: any
 }
 
