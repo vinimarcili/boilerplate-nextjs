@@ -10,7 +10,7 @@
     "lint:fix": "eslint src --fix",
     "test": "jest",
     "test:bail": "jest --bail",
-    "test:watch": "yarn test --watch"
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "next": "10.0.5",
