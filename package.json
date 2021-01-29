@@ -8,9 +8,9 @@
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "lint:fix": "eslint src --fix",
-    "test": "jest --findRelatedTests ./src",
-    "test:bail": "jest --findRelatedTests ./src --bail",
-    "test:watch": "jest --findRelatedTests ./src --watch"
+    "test": "jest",
+    "test:bail": "jest --bail",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "next": "10.0.5",
