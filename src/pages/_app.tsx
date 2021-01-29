@@ -1,4 +1,4 @@
-import { Component, ReactComponentElement } from 'react'
+import { Component } from 'react'
 import '../../styles/globals.css'
 
 type Props = {
