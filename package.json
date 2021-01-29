@@ -26,6 +26,7 @@
     "test:bail"
   ],
   "devDependencies": {
+    "eslint-import-resolver-typescript": "^2.3.0",
     "@babel/preset-typescript": "^7.12.7",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
