@@ -25,7 +25,8 @@
   },
   "pre-commit": [
     "lint:fix",
-    "lint"
+    "lint",
+    "test:bail"
   ],
   "pre-push": [
     "test:bail"
