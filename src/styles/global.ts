@@ -15,6 +15,8 @@ const GlobalStyles = createGlobalStyle`
   }
   html, body, #__next {
     height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
